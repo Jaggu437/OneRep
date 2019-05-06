@@ -20,3 +20,29 @@ Method IDEMPOTENCE
 
 IDEMPOTENT - GET, DELETE, PUT - these are safe when we call mutiple times
 NON - IDEMPOTENT - POST (Duplicate requests)
+
+HTTP Codes : 200 - OK ,201 - Created ,204 - No Content
+             302 - Found , 304 - Not modified 307 - Temporary 
+             400 - Bad Request , 401 - Unauthorized , 403 - Forbidden , 404 - Not Found 
+             500 - Internal Server Error
+             
+HATEOAS - HyperMedia As The Engine Of Application State  - providing the concurrent URL's in the main/first request like employeeAddress details like addressuri: "/employees/2/addresses"           
+
+"links" : [
+            {
+              "href" : "/employees/1",
+              "rel" : "self"
+            }
+            
+             {
+              "href" : "/employees/1",
+              "rel" : "addresses"
+            }
+            {
+              "href" : "/employees/1",
+              "rel" : "worklocations"
+            }
+]
+
+
+             
