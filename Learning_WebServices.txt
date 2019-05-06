@@ -7,6 +7,16 @@ ContentTypes - text/xml, application/json
 
 REST URI Types - 
                 Instance Resource URI  - /employees/{employeeID} - identfly specific type of resource
-                Collections Resource URI - /employees - collecttion type URI
+                Collections Resource URI - /employees - collecttion type URI - to create employee
                 
-                Paging /emplooyees?offset=30&limit10 - Offset - StratingPoint
+Paging -  /emplooyees?offset=30&limit10 - Offset - StratingPoint
+
+REST METHODS : GET, POST, DELETE, PUT 
+
+PUT - update the message
+POST - create new resource
+
+Method IDEMPOTENCE
+
+IDEMPOTENT - GET, DELETE, PUT - these are safe when we call mutiple times
+NON - IDEMPOTENT - POST (Duplicate requests)
