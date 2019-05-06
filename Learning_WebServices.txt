@@ -1,1 +1,12 @@
-REST - REpresentational State Transfer 
+REST - REpresentational State Transfer  - No rules to be followed while creating.
+SOAP - Set of rules which is needs to follow to create them - WSDL - Contract.
+HTTP - Hyper Text Transfer Protocol
+
+REST - Resource based URI - https://localhost:8080/employees/123 - URI /employees/{employeeID}
+ContentTypes - text/xml, application/json
+
+REST URI Types - 
+                Instance Resource URI  - /employees/{employeeID} - identfly specific type of resource
+                Collections Resource URI - /employees - collecttion type URI
+                
+                Paging /emplooyees?offset=30&limit10 - Offset - StratingPoint
