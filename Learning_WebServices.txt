@@ -42,7 +42,18 @@ HATEOAS - HyperMedia As The Engine Of Application State  - providing the concurr
               "href" : "/employees/1",
               "rel" : "worklocations"
             }
-]
+          ]
+
+Richardson Maturity Model - There are 3  level
+        Level One - Swap of POX (Plain Old XML) - SOAP - individual URI for resource
+        Level Two - Usage of HTTP methods and status codes
+        Level Three - Response have links that clients can use
+        
+        
+REST Library - "JAX-RS" - javax.ws.rs* - Jersey library - Reference Implementation
 
 
-             
+
+
+
+            
