@@ -6,7 +6,7 @@ REST - Resource based URI - https://localhost:8080/employees/123 - URI /employee
 ContentTypes - text/xml, application/json
 
 REST URI Types - 
-                Instance Resource URI  - /employees/{employeeID} - identfly specific type of resource
+                Instance Resource URI  - /employees/{employeeID} - identify specific type of resource
                 Collections Resource URI - /employees - collecttion type URI - to create employee
                 
 Paging -  /emplooyees?offset=30&limit10 - Offset - StratingPoint
