@@ -1,0 +1,28 @@
+Big O Notation - Long algorithm takes to run 
+ O(1) - Just single element
+ O(n) - for all the elements 
+ O(n^2) - complex
+ O(n) + O(n) = O(n)
+ 
+ 
+ Stacks 
+ 
+  - Push and Pop - LIFO - Last In First Out -> Like pack of tennis balls in vertical cylinder
+  - Peek Method - can see last element on the stack 
+ 
+ Queue - LIFO
+ 
+ Add element using enqueue(), dequeue(), poll(),peek()
+ 
+ LinkedList - When we need Faster Insertion
+        Very fast removal - O(1)
+        Slow retreival process O(n)
+
+
+Array - Fast Lookup
+
+Hash Table
+ 
+ 
+   
+ 
