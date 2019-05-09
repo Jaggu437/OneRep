@@ -3,3 +3,6 @@ Arrays to list
 Arrays.asList(array)
 Collections.sort(list/map)
 Collections.frequency(collection,value)
+For finding the count of one value in a list - example string - aaabbbbccccdddd
+
+HashMap hm =list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
