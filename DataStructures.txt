@@ -21,7 +21,9 @@ Big O Notation - Long algorithm takes to run
 
 Array - Fast Lookup
 
-Hash Table
+Hash Table ------ 
+    KeyData + hash Function - > Stored in Buckets
+    
  
  
    
