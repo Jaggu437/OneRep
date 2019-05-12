@@ -5,4 +5,11 @@ Collections.sort(list/map)
 Collections.frequency(collection,value)
 For finding the count of one value in a list - example string - aaabbbbccccdddd
 
-HashMap hm =list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+HashMap hm =list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
+
+
+
+Usage of Streams
+list.stream().filter(s -> s.contains(""s")).forEach(s -> System.out::println);
+list.stream().filter(s -> s.contains(""s")).collect(Collectors.toList());
+al.stream().map(String::toUpperCase).collect(Collectors.toList());
