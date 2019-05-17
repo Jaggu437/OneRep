@@ -1,5 +1,6 @@
-Arrays to list
+Use primitive types than objects, primitive types will have lower memory footprint
 
+Arrays to list
 Arrays.asList(array)
 Collections.sort(list/map)
 Collections.frequency(collection,value)
@@ -8,6 +9,19 @@ For finding the count of one value in a list - example string - aaabbbbccccdddd
 HashMap hm =list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
 
 
+New Things in Java 8 
+
+CompletableFuture - asynchrnous Programming 
+Optional Class - in order to capture null pointer exceptions
+
+FunctionalInterfaces which have only one abstract method which can be used as lambda expression.
+
+
+StreamOperations which results stream are intermediatery operations - > filter sorted map
+which results non stream type are Terminary operations -> findFirst,collect,allMatch
+
+Lambda Expression -  (Person p) - > p.getName();
+Method Referenece - Person::getAmount
 
 Usage of Streams
 list.stream().filter(s -> s.contains(""s")).forEach(s -> System.out::println);
